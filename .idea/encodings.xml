@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Inter" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Lexer" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Main" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Main.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Parser" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/java/org/revo/Symbols" charset="windows-1252" />

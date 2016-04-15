@@ -1,0 +1,13 @@
+{
+    Num num;
+    num=5;
+    Bool bool;
+    bool=False;
+    If(num==5||bool)
+    {
+        While(num<=5)
+        {
+        num=num+1;
+        }
+    }
+}

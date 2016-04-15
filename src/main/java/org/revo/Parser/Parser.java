@@ -99,7 +99,7 @@ public class Parser {
 
     Stmt stmt() throws IOException {
         Expr x;
-        Stmt s, s1, s2;
+        Stmt  s1, s2;
         Stmt savedStmt; // for break
         switch (lookAhead.tag) {
             case ';':

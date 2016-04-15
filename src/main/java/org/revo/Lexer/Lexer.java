@@ -44,15 +44,19 @@ public class Lexer {
     }
 
     public Token scan() throws IOException {
-        for (; ; readChar()) {
+
+
+
+        while (true) {
             if (peek == ' ' || peek == '\t') {
+                readChar();
                 continue;
-            } else if (peek == '\n') {
-                line++;
-            } else {
-                break;
-            }
+            } else if (peek == '\n') line++;
+             else break;
+
+            readChar();
         }
+
 
         switch (peek) {
             case '&':

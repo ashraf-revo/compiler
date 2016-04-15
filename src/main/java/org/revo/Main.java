@@ -8,13 +8,11 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Lexer lexer = new Lexer();
-        System.out.println(lexer.scan().toString());
-        System.out.println(lexer.scan().toString());
-        System.out.println(lexer.scan().toString());
 
-//        Parser parser = new Parser(lexer);
-//        parser.program();
+        Lexer lexer = new Lexer();
+
+        Parser parser = new Parser(lexer);
+        parser.program();
     }
 
 }
